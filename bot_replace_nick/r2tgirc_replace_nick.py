@@ -31,7 +31,7 @@ VALID_NICK = r'([@~&!%+-])?([^\s,\*?\.!@]+)'
 VALID_WRAP_NICK = r'<([@~&!%+-])?([^\s,\*?\.!@]+)> (.*)'
 valid_wrap_nick_re = re.compile(VALID_WRAP_NICK)
 
-bot_nick = 'r2tgirc'
+bot_nick = 'r2tg'
 channel = '#radare'
 bot_line_re = re.compile(r':' + VALID_NICK + '!([^ ]*) PRIVMSG ' + channel + ' :(.*)')
 
